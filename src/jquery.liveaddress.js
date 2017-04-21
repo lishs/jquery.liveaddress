@@ -2410,9 +2410,9 @@
             if (fields.administrative_area) {
                 if (fields.administrative_area.dom !== undefined && fields.administrative_area.dom.length !== undefined) {
 
-                    stateText = fields.administrative_area.dom.selectedIndex < 1 
+                    stateText = $(fields.administrative_area.dom).val() <= 0
                         ? ""
-                        : $(fields.country.dom).find(":selected").text();
+                        : $(fields.administrative_area.dom).find(":selected").text();
 
                     fields.administrative_area.value = stateText;
                 }
