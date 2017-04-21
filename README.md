@@ -1,5 +1,10 @@
-LiveAddress API jQuery Plugin
+LiveAddress API jQuery Plugin [with additional config]
 ==================================
+
+ Additional config added to override liveaddress's field values with field.dom's jquery wrapper values. This is useful in scenarios where you have limited access (or limited desire to access) invasive front-end library address script.
+
+Original plugin descrtion follows:
+---------------------------------------------
 
 Add real-time, plug-and-play, free address verification and autocomplete to your website. Powered by
 [SmartyStreets](http://smartystreets.com). Drop a couple lines of code into your webpage
