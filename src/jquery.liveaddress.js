@@ -47,7 +47,7 @@
         fieldSelector: "input[type=text], input:not([type]), textarea, select", // Selector for possible address-related form elements
         submitSelector: "[type=submit], [type=image], [type=button]:last, button:last", // Selector to find a likely submit button or submit image (in a form)
         target: "US",
-        overrideValues: false
+        overrideValues: false //set to true if checkout form has another library hooked into field values 
     };
     var config = {}; // Configuration settings as set by the user or just the defaults
     var forms = []; // List of forms (which hold lists of addresses)
